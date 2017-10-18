@@ -1,3 +1,3 @@
 Use:
 
-./start_threatupload.sh <feed folder>
+./start_threatupload.sh "feed folder"

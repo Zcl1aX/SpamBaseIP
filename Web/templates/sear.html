@@ -1,0 +1,12 @@
+{% extends "ind.html" %}
+{% block searchform %}
+
+    <form action="" method="post" name="search_ip">
+        {{ form.hidden_tag() }}
+        <p>
+            Please enter IP:<br>
+            {{form.search_ip}}<br>
+        </p>
+        <p><input type="submit" value="Search"></p>
+    </form>
+{% endblock%}
